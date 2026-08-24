@@ -109,6 +109,7 @@ gcc Ej1.o -o cocina
 
 ---
 
-## Autor
+## Colaboradores
 
-Trabajos prácticos realizados para la cátedra de Sistemas Operativos.
+- [Santiago Manghi](https://github.com/Santiago935)
+- [Celeste Torres](https://github.com/Celeste-mctm)
