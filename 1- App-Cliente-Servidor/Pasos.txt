@@ -1,0 +1,50 @@
+-------------------------------------------------
+Para el makefile (en bash/ubuntu), primero ir con cd hasta el directorio de los archivos, o donde almacenen el proyecto (.c)
+Luego escribir: nano Makefile
+Copiar todo esto
+
+	CC = gcc
+	CFLAGS = -Wall -pthread
+	
+	all: Servidor Cliente
+	
+	servidor: Servidor.c
+		$(CC) $(CFLAGS) Servidor.c -o Servidor
+	
+	cliente: Cliente.c
+		$(CC) $(CFLAGS) Cliente.c -o Cliente
+	
+	clean:
+		rm -f Servidor Cliente
+
+
+Para terminar:
+1- Ctrl + O para guardar
+2- Enter para confirmar
+3- Ctrl + X para salir
+------------------------------------------------
+Compilar archivo makefile con
+Primero:   make clean
+Luego: 	   make
+
+-----------------------------------
+Para probarlo, abrir una consola (en el directorio del proyecto) y escribir
+./Servidor
+
+Ahora en otra consola (abierta en el directorio del proyecto) y escribir
+./Cliente
+------------------------------------------------
+Las acciones disponibles para la consola abierta con la aplicacion cliente son las siguientes:
+
+CORTAR:palabra
+COCINAR:palabra
+EMPLATAR:palabra
+
+SUMA:Num1:Num2
+RESTA:Num1:Num2
+
+INVERSO:palabra
+MAYUS:palabra
+
+
+

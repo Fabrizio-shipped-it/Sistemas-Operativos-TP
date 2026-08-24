@@ -1,0 +1,12 @@
+# Binarios compilados
+Cliente
+Servidor
+cocina
+*.o
+*.out
+*.exe
+
+# Archivos generados por IDE / herramientas (Code::Blocks, cscope)
+*.layout
+*.cscope_file_list
+*.depend
